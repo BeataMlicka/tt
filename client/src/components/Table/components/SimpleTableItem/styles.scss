@@ -1,0 +1,113 @@
+.table-container {
+    width: 100%;
+    height: 70%;
+    margin: 5px 0;
+    padding: 10px;
+    background: rgba($color: #000000, $alpha: 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    width: 70%;
+    height: 85%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    @include mobile {
+        width: 50%;
+    }
+    @include tablet {
+        width: 50%;
+    }
+    @include desktop {
+        width: 40%;
+    }
+}
+
+.table-half {
+    width: 93%;
+    height: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.table-net {
+    width: 100%;
+    height: 2%;
+    background: #000000;
+    border-radius: 3px;
+}
+
+.simple-table-item {
+    width: 32.5%;
+    height: 49%;
+    background: #165E7A;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.top-left {
+    background-image: url('./assets/table/left-top-corner.jpg');
+}
+
+.top-right {
+    background-image: url('./assets/table/right-top-corner.jpg');
+}
+
+.bottom-left {
+    background-image: url('./assets/table/left-bottom-corner.jpg');
+}
+
+.bottom-right {
+    background-image: url('./assets/table/right-bottom-corner.jpg');
+}
+
+.top-middle {
+    background-image: url('./assets/table/top-middle.jpg');
+}
+
+.bottom-middle {
+    background-image: url('./assets/table/bottom-middle.jpg');
+}
+
+.middle {
+    background-image: url('./assets/table/middle.jpg');
+}
+
+.left {
+    background-image: url('./assets/table/left.jpg');
+}
+
+.right {
+    background-image: url('./assets/table/right.jpg');
+}
+
+.simple-table-item:hover {
+    background: rgba($color: #ffffff, $alpha: 0.6);
+}
+
+p.table-site {
+    display: none;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+p.active {
+    display: block;
+}

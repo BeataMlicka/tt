@@ -1,0 +1,20 @@
+.single-result {
+    padding: 5px 0;
+    border-top: 1px solid $slim-line-color;
+    p {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    p.perc {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .name {
+        text-align: left;
+    }
+    .table-icon {
+        width: 25px;
+        height: auto;
+        margin: 0 auto;
+    }
+}

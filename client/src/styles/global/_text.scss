@@ -1,0 +1,55 @@
+.red-text {
+    color: $main-red;
+}
+
+.green-text {
+    color: $main-green;
+}
+
+.orange-text {
+    color: $main-orange;
+}
+
+.yellow-text {
+    color: $main-yellow;
+}
+
+p {
+    font-size: .9rem;
+    @include mobile {
+        font-size: 1rem;
+    }
+    @include tablet {
+        font-size: 1.2rem;
+    }
+    @include desktop {
+        font-size: 1.3rem;
+    }
+}
+
+span {
+    font-weight: 600;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .8rem;
+    @include mobile {
+        font-size: .9rem;
+    }
+    @include tablet {
+        font-size: 1rem;
+    }
+    @include desktop {
+        font-size: 1.1rem;
+    }
+    @include desktopHD {
+        font-size: 1.2rem;
+    }
+}
+
+p.warning {
+    font-size: .8rem;
+    color: #EE2535
+}

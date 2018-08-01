@@ -1,0 +1,22 @@
+.match-controller {
+    background-image: url('./scenes/MatchController/images/mobile-background-2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    &--container {
+        @include mobile {
+            width: 80%!important;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include tablet {
+            width: 60%!important;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include desktop {
+            width: 50%!important;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

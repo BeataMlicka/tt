@@ -1,0 +1,52 @@
+.results-board {
+    width: 96%;
+    height: 87%;
+    position: absolute;
+    z-index: 10;
+    top: 2%;
+    left: 2%;
+    background: $dark-transparent-background;
+    padding: 10px;
+    box-sizing: border-box;
+    .icon {
+        height: 5%;
+        padding: 5px;
+    }
+    header {
+        height: 20%;
+        h3 {
+            font-weight: 300;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+    }
+    &--table {
+        margin: 20% auto 0 auto;
+        height: 40%;
+        width: 95%;
+        &--net {
+            height: 5px;
+            background: #ffffff;
+            border-radius: 2px;
+        }
+        &--container {
+            margin: 5px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &--item {
+                width: 32%;
+                height: 85px;
+                border: 1px solid #ffffff;
+                p.won {
+                    padding: 5px;
+                    color: $main-green;
+                }
+                p.lost {
+                    padding: 5px;
+                    color: $main-red;
+                }
+            }
+        }
+    }
+}

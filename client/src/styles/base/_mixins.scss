@@ -1,0 +1,37 @@
+@mixin mobileSM {
+    @media(min-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media(min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin desktopHD {
+    @media(min-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

@@ -1,0 +1,69 @@
+.tests-menu {
+    background-image: url('./scenes/TestsMenu/images/mobile-background-2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    @include mobileSM {
+        background-image: url('./scenes/TestsMenu/images/desktop-background-7.jpg');
+    }
+    @include desktop {
+        background-image: url('./scenes/TestsMenu/images/tablet-background-7.jpg');
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20%;
+        margin: 0;
+        box-sizing: border-box;
+        @include mobile {
+            padding-top: 5%;
+        }
+    }
+    &--content {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1%;
+        box-sizing: border-box;
+        margin: 0 auto 0 auto;
+        @include mobile {
+            width: 80%;
+            padding-top: 50px;
+        }
+        @include tablet {
+            width: 70%;
+            padding-top: 60px;
+        }
+        @include desktop {
+            width: 60%;
+        }
+    }
+}
+
+.menu-item {
+    width: 49%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: $background-black-transparent;
+    &--left {
+        border-right: 1px solid $slim-line-color;
+    }
+    &--right {
+        border-left: 1px solid $slim-line-color;
+    }
+    &--top {
+        border-bottom: 1px solid $slim-line-color;
+    }
+    &--bottom {
+        border-top: 1px solid $slim-line-color;
+    }
+}
+
+.menu-item:hover {
+    background: $transparent-blue;
+}

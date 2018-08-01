@@ -1,0 +1,25 @@
+#HTMLtoPDF {
+    height: 10;
+    width: 100%;
+    overflow: hidden;
+    visibility: hidden;
+    table {
+        width: 190;
+        font-family: "Raleway";
+        thead {
+            font-size: .9rem;
+            color: red;
+        }
+    }
+}
+
+.pdf-results {
+    header {
+        margin: 20px 0;
+    }
+}
+
+th.cell {
+    width: 30%;
+    background: yellowgreen;
+}

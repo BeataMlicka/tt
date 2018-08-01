@@ -1,0 +1,11 @@
+.results-main-container {
+    @include mobile {
+        width: 80%!important;
+    }
+    @include tablet {
+        width: 65%!important;
+    }
+    @include desktop {
+        width: 50%!important;
+    }
+}

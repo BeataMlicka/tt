@@ -1,0 +1,24 @@
+.signup-page {
+    background-image: url('./scenes/SignUp/images/mobile-background-8.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding-top: 5%;
+    @include mobile {
+        background-image: url('./scenes/SignUp/images/tablet-background-8.jpg');
+    }
+    @include tablet {
+        background-image: url('./scenes/SignUp/images/desktop-background-8.jpg');
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        a {
+            margin: 0 10px 10px 10px;
+            font-size: .8rem;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 400;
+        }
+    }
+}

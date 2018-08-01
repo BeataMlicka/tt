@@ -1,0 +1,25 @@
+.initial-info {
+    background-image: url('./scenes/InitialInfo/images/mobile-background-5.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    header {
+        height: 8%;
+        margin: 0;
+    }
+    &--content {
+        background: $background-black-transparent;
+        height: 92%;
+        @include mobile {
+            width: 80%;
+            margin: 0 auto 0 auto;
+        }
+        @include tablet {
+            width: 60%;
+            margin: 0 auto 0 auto;
+        }
+        @include desktop {
+            width: 55%;
+            margin: 0 auto 0 auto;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+@import './styles/global/_variables.scss';
+@import './styles/base/_mixins.scss';
+@import './styles/global/_global.scss';
+@import './styles/global/_containers.scss';
+@import './styles/base/_grid.scss';
+
+/**/
+
+@import './styles/global/_reset.scss';
+@import './styles/global/_text.scss';
+@import './styles/global/_input.scss';
+@import './styles/global/_icons.scss';
+@import './styles/global/_headlines.scss';
+
+/* --------------------------------------------------------------------  */
+
+@import './scenes/Landing/styles.scss';
+@import './components/Logo/styles.scss';
+
+/* navigation  */
+
+@import './components/Navigation/styles.scss';
+
+/* buttons  */
+
+@import './components/Buttons/WhiteButton/styles.scss';
+@import './components/Buttons/GoogleButton/styles.scss';
+
+/* forms */
+
+@import './scenes/Landing/components/SignInForm/styles.scss';
+@import './scenes/SignUp/styles.scss';
+@import './scenes/SignUp/components/SignUpForm/styles.scss';
+@import './scenes/InitialInfo/styles.scss';
+@import './scenes/InitialInfo/components/InitialForm/styles.scss';
+
+/* tests  */
+
+@import './scenes/TestsMenu/styles.scss';
+@import './components/Counter/styles.scss';
+@import './scenes/MatchController/styles.scss';
+@import './scenes/MatchController/scenes/NaxtShots/styles.scss';
+
+/* table */
+
+@import './components/Table/styles.scss';
+@import './components/Table/components/SimpleTableItem/styles.scss';
+
+/* results */
+
+@import './scenes/ResultsController/styless.scss';
+@import './scenes/ResultsController/scenes/components/MatchResults/styles.scss';
+@import './scenes/ResultsController/scenes/NextShotsResults/styles.scss';
+@import './scenes/ResultsController/scenes/NextShotsResults/components/SingleResult/styles.scss';
+@import './scenes/ResultsController/scenes/NextShotsResults/scenes/NextShotsResultsBoard/styles.scss';
+
+/* save */
+
+@import './scenes/ResultsController/styless.scss';
+@import './scenes/ResultsController/scenes/components/Save/styles.scss';
+@import './scenes/ResultsController/scenes/components/ResultPDF/styles.scss';
+
+/* --------------------------------------------------------------------  */
+
+
+/*components*/
+
+@import './styles/components/results/Save.scss';
+@import './styles/components/tests/SingleShot.scss';
+@import './styles/components/tests/ServeRespondActions.scss';
+@import './styles/components/InitialDataForm.scss';

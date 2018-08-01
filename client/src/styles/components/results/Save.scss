@@ -1,0 +1,15 @@
+.save {
+    width: 94%;
+    height: 94%;
+    position: absolute;
+    z-index: 20;
+    top: 2%;
+    left: 3%;
+    background: $background-black-transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    h2 {
+        font-weight: 500px;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,27 @@
+.landing-page {
+    background-image: url('./scenes/Landing/images/mobile-background-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding-top: 10%;
+    @include mobile {
+        padding-top: 8%;
+        background-image: url('./scenes/Landing/images/tablet-background-1.jpg');
+    }
+    @include tablet {
+        padding-top: 5%;
+    }
+    @include desktop {
+        background-image: url('./scenes/Landing/images/desktop-background-1.jpg');
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        a {
+            margin: 10% 0 10px 15px;
+            @include desktop {
+                margin: 10% 0 20px 15px;
+            }
+        }
+    }
+}
